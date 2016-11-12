@@ -24,6 +24,8 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 # time zone source
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
+# heroku recommended this
+gem 'rails_12factor', '~> 0.0.3'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
